@@ -27,11 +27,20 @@ ul li {
 }
 
 h2 {
-	text-align: center;
-	transition: .8s;
+	padding: 2rem;
+	line-height: 1.2;
+	font-size: 3vw;
 }
 
 /* HOVER effect*/
+
+body.test .cover {
+	opacity: 0;
+}
+
+body.test h2 {
+	opacity: 1;
+}
 
 .cover {
 	opacity: 1;
@@ -47,6 +56,7 @@ h2 {
 
 h2 {
 	opacity: 0;
+	transition: .8s;
 	pointer-events: none;
 }
 
@@ -58,16 +68,122 @@ li:active h2 {
 	-webkit-touch-callout: none;  
 }
 
+/* TYPOGRAPHY */
+
+@font-face {
+  font-family: 'alpha';
+  src: url('alpha_echo-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	font-family: 'alpha';
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+/* SIZES */
+
+.s {
+	font-size: 80%;
+}
+
+.m {
+	font-size: 90%;
+}
+
+.l {
+	font-size: 110%;
+}
+
+.xl {
+	font-size: 120%;
+}
+
 /* COLOURS */
 
 .cover {	
-	background-color: rgba(0, 180, 255, 1);
 	color: white;
 }
 
 h2 {
 	color: white;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }	
+
+.sunset-orange
+{
+	background-color: #F64747;
+}
+
+.plum
+{
+	background-color: #913D88;
+}
+
+.flower
+{
+	background-color: #F1A9A0;
+}
+
+.radical
+{
+	background-color: #F62459;
+}
+
+.spray
+{
+	background-color: #81CFE0;
+}
+
+.jacksons-purple
+{
+	background-color: #1F3A93;
+}
+
+.aqua-island
+{
+	background-color: #A2DED0;
+}
+
+.mountain
+{
+	background-color: #1BBC9B;
+}
+
+.california
+{
+	background-color: #F89406;
+}
+
+.cape-honey
+{
+	background-color: #FDE3A7;
+}
+
+.ecstasy
+{
+	background-color: #F9690E;
+}
+
+.summer-sky
+{
+	background-color: #1E8BC3;
+}
+
+.madang
+{
+	background-color: #C8F7C5;
+}
+
+.sandstorm
+{
+	background-color: #F9BF3B;
+}
+
 
 /* RESPONSIFYINGS */
 
