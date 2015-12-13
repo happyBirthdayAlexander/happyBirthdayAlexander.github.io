@@ -36,7 +36,8 @@ h2 {
 .cover {
 	opacity: 1;
 }
-.cover:hover {
+.cover:hover,
+.cover:focus {
 	opacity: 0;
 }
 
@@ -44,7 +45,9 @@ h2 {
 	opacity: 0;
 }
 
-li:hover h2 {
+li:hover h2,
+li:focus h2
+ {
 	opacity: 1;
 }
 
