@@ -35,22 +35,27 @@ h2 {
 
 .cover {
 	opacity: 1;
+	cursor: pointer;
 }
 .cover:hover,
-.cover:focus,
-.cover:active {
+.cover:active,
+.cover:focus {
 	opacity: 0;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;  
 }
 
 h2 {
 	opacity: 0;
+	pointer-events: none;
 }
 
 li:hover h2,
 li:focus h2,
-li:active h2
- {
+li:active h2 {
 	opacity: 1;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;  
 }
 
 /* COLOURS */
