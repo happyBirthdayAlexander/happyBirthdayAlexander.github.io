@@ -1,0 +1,75 @@
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	margin: 0;
+	list-style-type: none;
+	display: block;
+	float: left;
+	position: relative;
+
+	width: 50%;
+	height: 0;
+	padding-bottom: 50%;
+	
+	background-size: cover;
+	background-position: center;
+}
+
+.cover {
+	margin: 0;
+	transition: .4s;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+h2 {
+	text-align: center;
+	transition: .8s;
+}
+
+/* HOVER effect*/
+
+.cover {
+	opacity: 1;
+}
+.cover:hover {
+	opacity: 0;
+}
+
+h2 {
+	opacity: 0;
+}
+
+li:hover h2 {
+	opacity: 1;
+}
+
+/* COLOURS */
+
+.cover {	
+	background-color: rgba(0, 180, 255, 1);
+	color: white;
+}
+
+h2 {
+	color: white;
+}	
+
+/* RESPONSIFYINGS */
+
+body {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+@media (max-width: 40rem) {
+
+	ul li {
+		width: 100%;
+		padding-bottom: 100%;
+	}
+}	
