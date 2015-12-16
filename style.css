@@ -28,7 +28,7 @@ ul li {
 
 h2 {
 	padding: 2rem;
-	line-height: 1.4;
+	line-height: 1.2;
 	font-size: 3vw;
 }
 
@@ -88,14 +88,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* SIZES */
-
-.s {
-	font-size: 100%;
-}
-
-.m {
-	font-size: 150%;
-}
 
 .l {
 	font-size: 180%;
@@ -261,3 +253,31 @@ body {
 	}
 
   }	
+
+ @media (max-width: 390px)
+ {
+ 	.l{
+ 		font-size: 140%;
+ 	}
+
+ 	.xl{
+ 		font-size: 160%;
+ 	}
+
+ 	.xxl{
+ 		font-size: 180%;
+ 	}
+
+ 	.xxxl{
+ 		font-size: 200%;
+ 	}
+ 	.xxxxl{
+ 		font-size: 220%;
+ 	}
+
+ 	/*h2{
+ 		line-height: 1.8rem;
+ 	}*/
+
+
+ }
