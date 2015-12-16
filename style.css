@@ -111,6 +111,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 300%;
 }
 
+.xxxxl {
+	font-size: 350%;
+}
+
 /* COLOURS */
 
 .cover {	
@@ -195,6 +199,36 @@ h2 {
 .orange
 {
 	color: #FF602B;
+	text-shadow: none;
+}
+
+.dark-blue
+{
+	color: #23266B;
+	text-shadow: none;
+}
+
+.tongue
+{
+	color: #FF4F7A;
+	text-shadow: none;
+}
+
+.mustard
+{
+	color:#F5E829;
+}
+
+.aqua-blue
+{
+	color: #2EBAAB;
+	text-shadow: none;
+}
+
+.aqua-light
+{
+	color: #00D6C2;
+	text-shadow: none;
 }
 
 
